@@ -1,0 +1,15 @@
+package:
+  name: openvino
+  version: "2023.0.2"
+
+source:
+  url: https://storage.openvinotoolkit.org/repositories/openvino/packages/2023.0.2/linux/l_openvino_toolkit_ubuntu22_2023.0.2.11065.e662b1a3301_x86_64.tgz
+  
+requirements:
+  build:
+    - cmake
+  host:
+    - python
+    
+about:
+  license_file: docs/licensing/LICENSE
